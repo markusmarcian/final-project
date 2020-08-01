@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+<body>
+  
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home"><h1><span>M</span>arkus <span>M</span>arcian</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#about1" data-after="About">About</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="home">
+    <div class="home container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Marcian <span></span></h1>
+        <a href="#about" type="button" class="cta">About me as a person</a>
+        <a href="#about1" type="button" class="ctaa">About me as an employee</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-5.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About me as a <span>person</span></h1>
+        <h2>Artistic, Motivated and Commited person</h2>
+        <p>My name is Markus George Marcian, i am 23 years old and i was born and raised in Romania. Growing up as a child was pretty fun and challenging considering that i was borned country side. My parents are currently working as engineers and i have a bigger sister witch i'm very proud of, her name is Markus Andra and she works as stewardess at Qatar Airline. Since i was little i've noticed that i have some artistic talent. I am a person who is positive about every aspect of life. <span id="dots">...</span><span id="more">There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night.</span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about1">
+    <div class="about1 container">
+      <div class="col-left1">
+        <div class="about-img">
+          <img src="./img/img-4.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right1">
+        <h1 class="section-title">About me as a <span>employee</span></h1>
+        <h2>Front End Developer</h2>
+        <p>I’d describe myself as being very resourceful and ambitious at the same time. I find solutions, get creative and solve problems without needing the help of coworkers or managers. I know when to ask for help and I don’t stay quiet if I do need assistance. But when it is possible to handle something without occupying the time of others, I do it and I consider myself very good at it. It’s one of the things my last boss would say they liked most about me if you asked them to describe my style of work.</p>
+        <a href="#" class="cta">Download Resume</a>
+        <a href="#contact" class="cta">Hire me</a>
+      </div>
+    </div>
+  </section>
+
+<section id="services">
+  <div class="services container">
+    <div class="service-top">
+      <h1 class="section-title">Serv<span>i</span>ces</h1>
+      <p>With the rising traffic and an increase in the demand for web-based services, innovative web solutions are necessary for apps to excel in the market. Seamless user-interface is hugely dependent on the quality of your front-end development services and MGMarcian Studio can be your one stop solution to quality web apps.</p>
+    </div>
+    <div class="service-bottom">
+      <div class="service-item">
+        <div class="icon"><img src="./img/IconOne.png"/></div>
+        <h2>HTML</h2>
+        <p>
+         
+HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links for web pages and applications. </p>
+      </div>
+      <div class="service-item">
+        <div class="icon"><img src="./img/IconTwo.png"/></div>
+        <h2>CSS</h2>
+        <p>CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in HTML.</p>
+      </div>
+      <div class="service-item">
+        <div class="icon"><img src="./img/IconThree.png"/></div>
+        <h2>JavaScript</h2>
+        <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive and responsive.</p>
+      </div>
+      <div class="service-item">
+        <div class="icon"><img src="./img/IconFour.png"/></div>
+        <h2>React</h2>
+        <p>React is a popular JavaScript library for building user interface for a single-page application. It is also best for creating reusable user interfaces components.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Movie website</h1>
+            <h2>Designed movie website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Restaurant website</h1>
+            <h2>Designed restaurant website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Auto Service website</h1>
+            <h2>Designed website for auto service</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Night club website</h1>
+            <h2>Designed website for night club</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Food Delivery website</h1>
+            <h2>Designed website for food delivery</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+40749922062</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/mail.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Markusmarcian08@gmail.com</h2>
+            </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/map.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Str. Narciselor, Baia Mare, Maramures, Romania.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>M</span>arkus <span>G</span>eorge <span>M</span>arcian</h1></div>
+      <h2>Your best choice when it comes to websites</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/facebook-ui-twotone/48/Paul-04-512.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © Markus George Marcian. All rights reserved</p>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
